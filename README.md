@@ -79,7 +79,7 @@ A full stack IOT application to automate the checking if the temperature in incu
 
 ### Use case diagram <a name="uc"></a>
 
-![Use case diagram](https://github.com/Aryasharii/Kelompok7-IoT-Project/blob/master/UML%20Diagram/Use%20Case%20Diagram_IoTProject.drawio.png)
+![Use case diagram](https://github.com/Aryasharii/Kelompok7-IoT-Project/blob/master/UML%20Diagram/Use%20Case%20Diagram_IoTProject.png)
 
 **Tentative features**
 
