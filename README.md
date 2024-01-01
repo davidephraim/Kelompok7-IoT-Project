@@ -83,8 +83,7 @@ A full stack IOT application to automate the checking if the temperature in incu
 
 **Tentative features**
 
-- booking slots for using the washing machine
-
+- none
 <br/>
 
 <!-- ### System Architecture <a name="sysarc"></a>
