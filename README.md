@@ -18,24 +18,20 @@ L Test              - A Python script to test collaborating on Github (Milestone
 
 ### Table of contents
 
-1. [Main Project Details](#project)
-
-   1. [Problem Statement](#prob)
-   2. [Proposed solution](#sol)
-   3. [Use Case diagram](#uc)
-   4. [System architecture](#sysarc)
-   5. [Hardware](#hw)
-   6. [Communication Protocol](#comm)
-   7. [Server & Hosting](#cloud)
-   8. [Frontend](#ui)
-
-2. [Updates](#updates)
-
-   1. [Milestone 3: Send realtime sensor data to cloud server](#mi3)
-   2. [Milestone 4: Send sensor data to database, Flask server reads data from database](#mi4)
-   3. [Milestone 5: Dashboard UI improvements](#mi5)
-
-3. [Demo Videos Rewind](#rewind)
+- [Kelompok7-IoT-Project](#kelompok7-iot-project)
+    - [Navigate this repo](#navigate-this-repo)
+    - [Table of contents](#table-of-contents)
+- [Main Project: Smart Incubator ](#main-project-smart-incubator-)
+    - [Problem Statement ](#problem-statement-)
+    - [Our Solution ](#our-solution-)
+    - [Use case diagram ](#use-case-diagram-)
+    - [Hardware ](#hardware-)
+      - [Hardware Setup ](#hardware-setup-)
+    - [Communication Protocol ](#communication-protocol-)
+    - [Dashboard Frontend ](#dashboard-frontend-)
+- [Updates ](#updates-)
+    - [Milestone 4: Send sensor data to database, Flask server reads data from database ](#milestone-4-send-sensor-data-to-database-flask-server-reads-data-from-database-)
+- [Milestones Demo Videos Rewind ](#milestones-demo-videos-rewind-)
 
 <br/>
 
@@ -99,6 +95,9 @@ A full stack IOT application to automate the checking if the temperature in incu
 ``` -->
 <!-- ![Light Module sensor from Cytron](https://github.com/Rekanice/swe-G2-iot-project/blob/f124691cfb8c146144e130dbb8553d363e562a06/images/light_sensor_module.jpg)
 ![NodeMCU ESP8266](https://github.com/Rekanice/swe-G2-iot-project/blob/e8a1b532913f9c267a11f2c236fd56e05f51c070/images/nodemcu_ESP8266.jpg) -->
+- Sensor    : DHT11
+- MCU       : ESP32
+- Indicator : LED, Telegram Bot Notification
 
 <br/>
 
@@ -110,13 +109,15 @@ A full stack IOT application to automate the checking if the temperature in incu
 
 ### Communication Protocol <a name="comm"></a>
 
+The communication protocol used in this project is API based. Data from DHT11 will sent every 1 minutes or when users do commands, to Telegram bot then Temperature and Humidity will show as notification or chat from Telegram bot. 
+
 <!-- ```
 HTTP
 ``` -->
 
 <br/>
 
-### Cloud Platform & Web server <a name="cloud"></a>
+<!-- ### Cloud Platform & Web server <a name="cloud"></a> -->
 
 <!-- ```
 Backend framework      : Flask
@@ -130,7 +131,7 @@ Here is a [video](https://youtu.be/oEzaFD8RCEE) of deploying the Flask/Deploy ap
 
 This is the accompanying article on [Deploying the Flask / Django app in Heroku](https://github.com/Rekanice/swe-G2-iot-project/blob/f4e41c6ab807bea9e7c15f0c16e89c8eff10dd4d/Deploying-on-Heroku.md). -->
 
-<br/>
+<!-- <br/> -->
 
 ### Dashboard Frontend <a name="ui"></a>
 
